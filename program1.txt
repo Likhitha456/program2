@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int ival1,ival2,res;
+	cout<<"enter two values:"<<endl;
+	cin>>ival1>>ival2;
+	res=ival1*ival2;
+	cout<<"multiplication of two numbers:"<<res<<endl;
+	return 0;
+}
